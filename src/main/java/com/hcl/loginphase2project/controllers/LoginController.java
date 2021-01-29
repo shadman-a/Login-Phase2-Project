@@ -29,7 +29,7 @@ public class LoginController {
              return "welcome";
          }
      }
-     model.addAttribute("error", "wrong password");
+     model.addAttribute("error", "Wrong Password");
      return "login";
  }
 

@@ -6,7 +6,7 @@
 
 <body>
 <H1>Signup</H1>
-<p color="red"> ${error}</p>
+<p style="color:red;"> ${error}</p>
 <form method="post">
     Username : <input type="text" name="name">
     Password : <input type="password" name="password">
